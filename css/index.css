@@ -375,11 +375,12 @@ nav {
 /* Conteneur des images de la 1ʳᵉ année */
 .card-container {
     display: flex;
-    justify-content: center; /* Centrer les cartes */
-    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
-    gap: 20px; /* Espacement entre les cartes */
-    margin-left: 0; /* Supprimer le décalage latéral */
-    padding: 20px; /* Ajoute un peu d’espace autour */
+    justify-content: center; /* Centre toutes les cartes */
+    flex-wrap: wrap; /* Permet aux cartes de s’adapter sur plusieurs lignes */
+    gap: 20px; /* Ajoute un espace uniforme entre les cartes */
+    margin: 0 auto; /* Centre le conteneur lui-même */
+    padding: 20px;
+    width: 100%; /* S'assurer qu'il occupe toute la largeur disponible */
 }
 
 /* Style des cartes */
@@ -393,25 +394,9 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     background: #f9f9f9;
-    margin-left: 0; /* Supprimer le margin-left qui posait problème */
+    margin: 0; /* Supprime tout décalage latéral */
 }
-.card6 {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    background: #f9f9f9;
-    margin-left: 0; /* Supprimer le margin-left qui posait problème */
-}
-.card6{
-width: 100%;
-    height: auto;
-    display: block;
-}
+
 /* Ajustement des images */
 .card2 img {
     width: 100%;
