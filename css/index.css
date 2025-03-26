@@ -395,7 +395,23 @@ nav {
     background: #f9f9f9;
     margin-left: 0; /* Supprimer le margin-left qui posait problème */
 }
-
+.card6 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: #f9f9f9;
+    margin-left: 0; /* Supprimer le margin-left qui posait problème */
+}
+.card6{
+width: 100%;
+    height: auto;
+    display: block;
+}
 /* Ajustement des images */
 .card2 img {
     width: 100%;
